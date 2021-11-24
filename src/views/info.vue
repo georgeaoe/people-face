@@ -7,7 +7,7 @@
     <div class="main">
       <div class="tag">
         <div class="top5-title">
-          <span>相关功能 </span>
+          <span>相关功能</span>
         </div>
         <div class="top5-content">
           <ul>
@@ -101,6 +101,14 @@
           <span>综合情况分析</span>
         </div>
         <ul>
+          
+          <li>
+            <img src="../images/s2.png" alt="" />
+            <h5>个人定位</h5>
+            <br />
+            <span>Personal Locate</span><br />
+            <em>项目经理</em>
+          </li>
           <li>
             <img src="../images/s1.png" alt="" />
             <h5>学习目标</h5>
@@ -109,18 +117,11 @@
             <em>GPA:4.0</em>
           </li>
           <li>
-            <img src="../images/s3.png" alt="" />
-            <h5>学习目标</h5>
-            <br />
-            <span>Studying Target</span><br />
-            <em>GPA:4.0</em>
-          </li>
-          <li>
             <img src="../images/s2.png" alt="" />
-            <h5>学习目标</h5>
+            <h5>比赛需求</h5>
             <br />
-            <span>Studying Target</span><br />
-            <em>GPA:4.0</em>
+            <span>Race Target</span><br />
+            <em>文案、美工</em>
           </li>
         </ul>
       </div>
@@ -169,7 +170,7 @@
 
 <script>
 import * as echarts from "echarts";
-import echartt from "./a.vue";
+import echartt from "./radar.vue";
 export default {
   name: "info",
   components: { echartt },
@@ -880,8 +881,9 @@ export default {
 .main .analyse ul li em {
   font-style: normal;
   font-size: 1.3rem;
-  margin-right: 35%;
   color: #0ac1c7;
+  margin-left: 4rem;
+  text-align: left;
 }
 .main .analyse ul li:nth-of-type(1) em {
   color: #f29701;

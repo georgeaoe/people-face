@@ -61,11 +61,11 @@ export default {
         },
         radar: {
           indicator: [
-            { text: "A能力", max: 400 },
-            { text: "B能力", max: 400 },
-            { text: "C能力", max: 400 },
-            { text: "D能力", max: 400 },
-            { text: "E能力", max: 400 },
+            { text: "文案", max: 400 },
+            { text: "美工", max: 400 },
+            { text: "编程", max: 400 },
+            { text: "数理", max: 400 },
+            { text: "责任心", max: 400 },
           ],
         },
         series: (function () {
